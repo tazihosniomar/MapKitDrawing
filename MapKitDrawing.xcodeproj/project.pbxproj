@@ -21,6 +21,7 @@
 		649E1E96192B61A50055A0F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649E1E78192B61A50055A0F3 /* UIKit.framework */; };
 		649E1E9E192B61A50055A0F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 649E1E9C192B61A50055A0F3 /* InfoPlist.strings */; };
 		649E1EA0192B61A50055A0F3 /* MapKitDrawingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E1E9F192B61A50055A0F3 /* MapKitDrawingTests.m */; };
+		649E1EAB192B61C70055A0F3 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E1EA9192B61C70055A0F3 /* CanvasView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		649E1E9B192B61A50055A0F3 /* MapKitDrawingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapKitDrawingTests-Info.plist"; sourceTree = "<group>"; };
 		649E1E9D192B61A50055A0F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		649E1E9F192B61A50055A0F3 /* MapKitDrawingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapKitDrawingTests.m; sourceTree = "<group>"; };
+		649E1EA9192B61C70055A0F3 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		649E1EAA192B61C70055A0F3 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		649E1E7A192B61A50055A0F3 /* MapKitDrawing */ = {
 			isa = PBXGroup;
 			children = (
+				649E1EA9192B61C70055A0F3 /* CanvasView.m */,
+				649E1EAA192B61C70055A0F3 /* CanvasView.h */,
 				649E1E83192B61A50055A0F3 /* AppDelegate.h */,
 				649E1E84192B61A50055A0F3 /* AppDelegate.m */,
 				649E1E86192B61A50055A0F3 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			files = (
 				649E1E8B192B61A50055A0F3 /* ViewController.m in Sources */,
 				649E1E85192B61A50055A0F3 /* AppDelegate.m in Sources */,
+				649E1EAB192B61C70055A0F3 /* CanvasView.m in Sources */,
 				649E1E81192B61A50055A0F3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
